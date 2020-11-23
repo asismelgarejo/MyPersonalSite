@@ -4,10 +4,10 @@ const Profile = ()=>{
         <section class='hero'>
         <img class='hero__background' src='https://www.japan-guide.com/thumb/destination_tokyo.jpg' alt='' />
         <figure class='profile__avatar'>
-          <img src='https://i.pinimg.com/originals/4a/ff/39/4aff399253c4e782f411d2443d059bd1.jpg' alt='shinobu' className='avatar-container__image is-active' id='avatar' />
+          <img src='https://scontent.flim10-1.fna.fbcdn.net/v/t1.0-9/118206238_359837528509497_6357691457044033273_n.jpg?_nc_cat=106&ccb=2&_nc_sid=09cbfe&_nc_ohc=XgqaQT_zksIAX9ewdVa&_nc_oc=AQlqhu66hBRWFBoGHH5TkXPi6bCxlQ-yGxTK7dMjCkxMVbDsBwix_n1zx2kqjnJjq_4&_nc_ht=scontent.flim10-1.fna&oh=43ff8f2453282b44db909245f75bb26b&oe=5FDF6FE1' alt='shinobu' className='avatar-container__image is-active' id='avatar' />
         </figure>
         <div class='hero__description'>
-          <h1>Asís Melgarejo / Frontend Developer</h1>
+          <h1>Asis Melgarejo / Frontend Developer</h1>
           <p>
             Suspendisse potenti. Nam commodo luctus sollicitudin.
             Maecenas id turpis nec risus viverra facilisis.
