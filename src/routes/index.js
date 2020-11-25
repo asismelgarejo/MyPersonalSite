@@ -15,18 +15,18 @@ const routes = {
   '/portfolio': Portfolio,
 };
 
-const router = async () => {
-  const header = null || document.getElementById('header');
-  const footer = null || document.getElementById('footer');
-  const content = null || document.getElementById('content');
+const router = () => {
+  const header = document.getElementById('header');
+  const footer = document.getElementById('footer');
+  const content = document.getElementById('content');
 
   header.innerHTML = Header();
   footer.innerHTML = Footer();
 
   let hash = getHash();
-  let route = await resolveRoutes(hash);
+  let route = resolveRoutes(hash);
   let render = routes[route] ? routes[route] : '<h1>Error! 404</h1>';
-  content.innerHTML = await render();
+  content.innerHTML = render();
 };
 
 
