@@ -6,7 +6,7 @@ const Portfolio = ()=>{
             <h1>My projects</h1>
         </div>
         <div class='portfolio__item'>
-            <a href="https://i.imgur.com/xG3uhB2.png" target="_blank"><img src='./src/images/myufaber.png' alt='my ufaber project' class='portfolio__item--image' /></a>
+            <a href="https://asismelgarejo.github.io/P-MyUfaber/" target="_blank"><img src="https://i.imgur.com/xG3uhB2.png" alt='my ufaber project' class='portfolio__item--image' /></a>
             <h3>My Ufaber</h3>
             <span>JavaScript</span>
             <span>HTML</span>
