@@ -13,7 +13,7 @@ const Profile = ()=>{
         <div class='hero__description'>
           <h1>Asis Melgarejo&ensp;&ensp;/&ensp;&ensp;Frontend Developer</h1>
           <p>
-            Hola! Soy estudiante de ingenieria de sistemas y un apasinado por
+            Hola! Soy estudiante de ingeniería de sistemas y un apasinado por
             las tecnologías web. En la Internet existen varias formas de transmitir
             información (FTP,SMTP,HTTP, etc) y la web es una de las más importantes.
             Actualmente me enfoco en todo lo que sucede en lado del cliente, pero también tengo
