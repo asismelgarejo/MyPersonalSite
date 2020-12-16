@@ -6,25 +6,13 @@ const Portfolio = ()=>{
             <h1>My projects</h1>
         </div>
         <div class='portfolio__item'>
-            <img src='https://i.imgur.com/R7AbfqI.jpg' alt='' class='portfolio__item--image' />
-            <h3>App1</h3>
-            <span>JS</span>
-            <p>Nulla eu enim in odio egestas efficitur. Nam quis sollicitudin mauris. In a consequat justo.</p>
-            <a href="#">GitHub repository</a>
-        </div>    
-        <div class='portfolio__item'>
-            <img src='https://i.imgur.com/R7AbfqI.jpg' alt='' class='portfolio__item--image' />
-            <h3>App1</h3>
-            <span>JS</span>
-            <p>Nulla eu enim in odio egestas efficitur. Nam quis sollicitudin mauris. In a consequat justo.</p>
-            <a href="#">GitHub repository</a>
-        </div>    
-        <div class='portfolio__item'>
-            <img src='https://i.imgur.com/R7AbfqI.jpg' alt='' class='portfolio__item--image' />
-            <h3>App1</h3>
-            <span>JS</span>
-            <p>Nulla eu enim in odio egestas efficitur. Nam quis sollicitudin mauris. In a consequat justo.</p>
-            <a href="#">GitHub repository</a>
+            <a href="https://asismelgarejo.github.io/P-MyUfaber/" target="_blank"><img src='./src/images/myufaber.png' alt='my ufaber project' class='portfolio__item--image' /></a>
+            <h3>My Ufaber</h3>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <p>This project was developed using only the most fundamental tools of web development.</p>
+            <a href="https://github.com/asismelgarejo/P-MyUfaber" target="_blank">GitHub repository</a>
         </div>    
     </div>
   `

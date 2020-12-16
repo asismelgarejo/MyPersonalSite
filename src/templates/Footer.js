@@ -1,7 +1,5 @@
 const Footer = ()=>{
-  const view = `
-  <span class='quote'>JavaScript solutions for business problems</span>
-  `
+  const view = ``
   return view;
 }
 

@@ -1,0 +1,62 @@
+.home {
+  width: 100%;
+  position: relative;
+    overflow: hidden;
+  height: calc(100vh - 200px);
+}
+.home__image {
+    width: 100%;
+    position: absolute;
+}
+.home__titles {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.home .name {
+  margin-top: 40px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: var(--second-font);
+  margin-bottom: 0;
+}
+.home .profession{
+  font-size: 60px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-family: var(--second-font);
+  color: var(--clear-color);
+}
+.home__social-network {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  list-style: none;
+  top: 12.5em;
+  left: 0;
+  right: 0;
+  width: 450px;
+  margin: 0 auto;
+}
+.home__social-network  .social {
+  text-decoration: none;
+}
+.home__social-network a img{
+  width: 30px;
+  margin-top: 3px;
+}
+.home__social-network li{
+  border: 1px solid var(--clear-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__avatar {
+  position: absolute;
+}

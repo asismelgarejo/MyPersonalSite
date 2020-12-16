@@ -1,0 +1,17 @@
+:root{
+--main-color: #BAC3D3;
+--second-color: #453c2c;
+--clear-color:white;
+--border-color: #dbdbe2;
+--fondo:  linear-gradient(var(--main-color), var(--second-color));
+--background: rgba(255,255,255, .9);
+
+--main-font: 'Ubuntu', Arial, Helvetica, sans-serif;
+--second-font: 'Muli', Arial, Helvetica, sans-serif;
+--quote-font: 'Indie Flower', Arial, Helvetica, sans-serif;
+--subtitle-font: 'Roboto', Arial, Helvetica, sans-serif;
+
+--little-size: 16px;
+--medium-size: 30px;
+--large-size: 60px;
+}

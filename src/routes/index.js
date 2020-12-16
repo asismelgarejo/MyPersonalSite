@@ -18,7 +18,7 @@ const routes = {
 const router = () => {
   const header = document.getElementById('header');
   const footer = document.getElementById('footer');
-  const content = document.getElementById('content');
+  const main = document.getElementById('main');
 
   header.innerHTML = Header();
   footer.innerHTML = Footer();
@@ -26,8 +26,10 @@ const router = () => {
   let hash = getHash();
   let route = resolveRoutes(hash);
   let render = routes[route] ? routes[route] : '<h1>Error! 404</h1>';
-  content.innerHTML = render();
+  main.innerHTML = render();
 };
+
+
 
 
 export default router;

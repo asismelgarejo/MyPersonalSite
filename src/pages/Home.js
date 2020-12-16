@@ -1,3 +1,10 @@
+import fb from './icons/fb';
+import instagram from './icons/instagram';
+import twitter from './icons/twitter';
+import github from './icons/github';
+import linkedin from './icons/linkedin';
+
+
 const Home = ()=>{
   const view = `
       <div class='home'>
@@ -6,33 +13,12 @@ const Home = ()=>{
           <h3 class='name'>Asis Melgarejo</h3>
           <h1 class='profession'>Frontend Developer</h1>
         </div>
-        <div class='home__social-network'>
-          <span class='facebook'>
-            <a href='#' target='_blanck'>
-              <i class='icon-facebook facebook'></i>
-            </a>
-          </span>
-          <span class='twitter'>
-            <a href='#' target='_blanck'>
-              <i class='icon-facebook facebook'></i>
-            </a>
-          </span>
-          <span class='github'>
-            <a href='#' target='_blanck'>
-              <i class='icon-facebook facebook'></i>
-            </a>
-          </span>
-          <span class='linkedin'>
-            <a href='#' target='_blanck'>
-              <i class='icon-linkedin linkedin'></i>
-            </a>
-          </span>
-          <span class='instagram'>
-            <a href='#' target='_blanck'>
-              <i class='icon-instagram instagram'></i>
-            </a>
-          </span>
-        </div>
+        <ul class='home__social-network'>
+          <li><a href='https://twitter.com/asismelgarejo' target='_blank' class='social'>${twitter()}</a></li>
+          <li><a href='https://github.com/asismelgarejo' target='_blank' class='social'>${github()}</a></li>
+          <li><a href='https://www.linkedin.com/in/asis-melgarejo-lopez-5010b31a7/' target='_blank' class='social'>${linkedin()}</a></li>
+          <li><a href='https://www.instagram.com/asismelgarejo/' target='_blank' class='social'>${instagram()}</a></li>
+        </ul>
       </div>
   `
   return view;
