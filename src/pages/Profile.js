@@ -8,7 +8,7 @@ const Profile = ()=>{
         <section class='hero'>
         <img class='hero__background' src='https://www.japan-guide.com/thumb/destination_tokyo.jpg' alt='' />
         <figure class='profile__avatar'>
-          <img src='./src/images/avatar3.jpg' alt='avatar' className='avatar-container__image is-active' id='avatar' />
+          <img src='https://i.imgur.com/HXcUOVQ.jpg' alt='avatar' className='avatar-container__image is-active' id='avatar' />
         </figure>
         <div class='hero__description'>
           <h1>Asis Melgarejo&ensp;&ensp;/&ensp;&ensp;Frontend Developer</h1>
