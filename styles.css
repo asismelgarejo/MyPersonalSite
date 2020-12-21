@@ -368,6 +368,11 @@ div[class^='skills__item--'] div{
   justify-content: space-around;
   margin-bottom: 40px;
 }
+.portfolio > div:last-child{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
 .portfolio__titles {
     border-bottom: 1px solid var(--border-color);
     width: 100%;
